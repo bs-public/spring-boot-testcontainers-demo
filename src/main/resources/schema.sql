@@ -5,3 +5,6 @@ CREATE TABLE IF NOT EXISTS users (
     PRIMARY KEY (id),
     UNIQUE (email)
 );
+
+INSERT INTO users (name, email) VALUES ('User1', 'user1@mail.com'), ('User2', 'user2@mail.com');
+
